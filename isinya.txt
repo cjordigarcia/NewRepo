@@ -5,7 +5,11 @@
 <link rel="stylesheet" href="bluestyle.css">
 </head>
 <body>
+<<<<<<< HEAD
 <h1>Welcome Everyone! wkwk</h1>
+=======
+<h1>Welcome Everyone!</h1>
+>>>>>>> 0ee3faa0a838ce6c68642b46451f93c72bd617f2
 <p>This is my first file in my new Git Repo.</p>
 </body>
 </html>
