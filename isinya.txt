@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome Jordi!</title>
+<title>Hello everyone!</title>
 <link rel="stylesheet" href="bluestyle.css">
 </head>
 <body>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a276854517061f34dcd38771960dc4db38f15ec
-<h1>Welcome Everyone!</h1>
-=======
-<<<<<<< HEAD
-<h1>Welcome Everyone! wkwk</h1>
-=======
-<h1>Welcome Everyone!</h1>
->>>>>>> 0ee3faa0a838ce6c68642b46451f93c72bd617f2
->>>>>>> bdf628313260240c2555c3687d19e5fc9e125e52
-<<<<<<< HEAD
-=======
-<h1>Hello OpenWay indonesia!</h1>
->>>>>>> parent of 0ee3faa (changing msg)
-=======
->>>>>>> 5a276854517061f34dcd38771960dc4db38f15ec
+
+<h1>I am Jordi from OpenWay!</h1>
 <p>This is my first file in my new Git Repo.</p>
 </body>
 </html>
-
-
