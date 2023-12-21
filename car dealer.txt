@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Dealer Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #333;
+            color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #333;
+            box-shadow: 2px 2px 5px #ccc;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            padding: 10px;
+            margin: 0;
+        }
+        .card p {
+            padding: 10px;
+            margin: 0;
+        }
+        .card button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #f2f2f2;
+            border: none;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .footer {
+            background-color: #333;
+            color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Car Dealer Website</h1>
+            <p>The best place to buy and sell cars online</p>
+        </div>
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="main">
+            <div class="card">
+                <img src="car1.jpg" alt="Car 1">
+                <h3>Car 1</h3>
+                <p>Model: Ford Mustang<br>Year: 2023<br>Price: $30,000</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="car2.jpg" alt="Car 2">
+                <h3>Car 2</h3>
+                <p>Model: Toyota Camry<br>Year: 2023<br>Price: $25,000</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="car3.jpg" alt="Car 3">
+                <h3>Car 3</h3>
+                <p>Model: Honda Civic<br>Year: 2023<br>Price: $20,000</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="footer">
+            © 2023 Car Dealer Website
+        </div>
+    </div>
+</body>
+</html>
